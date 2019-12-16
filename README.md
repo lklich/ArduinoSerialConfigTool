@@ -23,6 +23,8 @@ Podzespoły:
 
 W projekcie znajdują się kompletne źródła C# (Winforms) oraz szkic dla Arduino.
 
+![Narzędzie konfiguracyjne](https://leszek-klich.pl/wp-content/uploads/2019/12/guitool.png)
+
 Lista parametrów urządzenia (wysyłane przez port COM z komputera - szybkość:9600)<br/>
 [VER] - aktualna wersja firmware w urządzeniu<br/>
 [IDE] - zwraca identyfikator zdefinowany jako IDNT. Słuzy do identyfikacji urządzenia<br/>
@@ -41,4 +43,6 @@ Lista parametrów urządzenia (wysyłane przez port COM z komputera - szybkość
 [DEB:X] - włącza lub wyłącza tryb debugowania<br/>
 [HIS:X] - ustawia poziom histerezy dla identyfikacji dzień/noc, gdzie x z zakresu 1-199<br/>
 [DEF:0] - ustawia parametry domyślne: czas:15 sekund, poziom przłączania170 (dla tego typu fotorezystora), debug:0, histereza:10<br/>
+
+![Podgląd parametrów](https://leszek-klich.pl/wp-content/uploads/2019/12/analyzer.png)
 
