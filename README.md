@@ -23,22 +23,22 @@ Podzespoły:
 
 W projekcie znajdują się kompletne źródła C# (Winforms) oraz szkic dla Arduino.
 
-Lista parametrów urządzenia (wysyłane przez port COM z komputera - szybkość:9600).
-[VER] - aktualna wersja firmware w urządzeniu
-[IDE] - zwraca identyfikator zdefinowany jako IDNT. Słuzy do identyfikacji urządzenia
-[HIS] - zwraca wartość histerezy 
-[TIM] - zwraca czas, na jaki włacza się światło po wykryciu ruchu
-[LIG] - zwraca 1 gdy jest włączone światło oraz 0, gdy wyłączone
-[DAY] - zwraca 1 gdy urządzenie jest w trybie dzień lub 0, gdy noc.
-[LEV] - zwraca wartość, która decyduje czy jest dzień czy noc (tę wartośc należy dobrać)
-[REL] - zwraca czy przekaźnik jest włączony 1- włączony, 0 - wyłączone
-[DEB] - zwraca informajcę czy włączony jest tryb debugowania. Jeśli 1-tak, 0-nie
-[MOV] - zwraca 1 gdy wykryto ruch oraz 0 gdy brak ruchu z PIR
-[RES] - resetuje urządzenie
-[PAR] - wyświwetla w terminalu wszystkie parametry z EEPROM
-[TIM:X] - ustawia czas włączenia świata w sekundach, gdzie X - ilość sekund (1-254)
-[LEV:x] - ustawia wartość przełaczania trybu dzień/noc, gdzie X - wartość (1-254)
-[DEB:X] - włącza lub wyłącza tryb debugowania
-[HIS:X] - ustawia poziom histerezy dla identyfikacji dzień/noc, gdzie x z zakresu 1-199
-[DEF:0] - ustawia parametry domyślne: czas:15 sekund, poziom przłączania170 (dla tego typu fotorezystora), debug:0, histereza:10
+Lista parametrów urządzenia (wysyłane przez port COM z komputera - szybkość:9600)<br/>
+[VER] - aktualna wersja firmware w urządzeniu<br/>
+[IDE] - zwraca identyfikator zdefinowany jako IDNT. Słuzy do identyfikacji urządzenia<br/>
+[HIS] - zwraca wartość histerezy <br/>
+[TIM] - zwraca czas, na jaki włacza się światło po wykryciu ruchu<br/>
+[LIG] - zwraca 1 gdy jest włączone światło oraz 0, gdy wyłączone<br/>
+[DAY] - zwraca 1 gdy urządzenie jest w trybie dzień lub 0, gdy noc<br/>
+[LEV] - zwraca wartość, która decyduje czy jest dzień czy noc (tę wartośc należy dobrać)<br/>
+[REL] - zwraca czy przekaźnik jest włączony 1- włączony, 0 - wyłączone<br/>
+[DEB] - zwraca informajcę czy włączony jest tryb debugowania. Jeśli 1-tak, 0-nie<br/>
+[MOV] - zwraca 1 gdy wykryto ruch oraz 0 gdy brak ruchu z PIR<br/>
+[RES] - resetuje urządzenie<br/>
+[PAR] - wyświwetla w terminalu wszystkie parametry z EEPROM<br/>
+[TIM:X] - ustawia czas włączenia świata w sekundach, gdzie X - ilość sekund (1-254)<br/>
+[LEV:x] - ustawia wartość przełaczania trybu dzień/noc, gdzie X - wartość (1-254)<br/>
+[DEB:X] - włącza lub wyłącza tryb debugowania<br/>
+[HIS:X] - ustawia poziom histerezy dla identyfikacji dzień/noc, gdzie x z zakresu 1-199<br/>
+[DEF:0] - ustawia parametry domyślne: czas:15 sekund, poziom przłączania170 (dla tego typu fotorezystora), debug:0, histereza:10<br/>
 
