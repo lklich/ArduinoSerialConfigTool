@@ -5,6 +5,8 @@ Kompletny przykład konfiguracji parametrów Arduino zapisywanych w EEPROM przy 
 Program dla Arduino
 Jest to urządzenie sterujące oświetleniem za pomocą czujnika zmierzchu oraz pilota.
 
+![Zmontowane urządzenie](https://leszek-klich.pl/wp-content/uploads/2019/12/lightonoff.jpg)
+
 Założenia:
 1. Włączenie światła następuje po wykryciu ruchu tylko gdy jest ciemno i wyłącza po określonym czasie.
 2. Jeśli włączono światło za pomocą pilota, zaświeca się na obudowie diona LED i urzadzenie nie reaguje na czujnik ruchu. Światło świeci się aż do świtu.
@@ -14,12 +16,13 @@ Założenia:
 Podzespoły:
 1. Arduino Nano 5V
 2. Czujnik ruchu HC-SR501
-3. Fotorezystor GL5516-5K-10K
-4. Moduł przekaźnika z optoizolacją
+3. Fotorezystor GL5516-5K-10K lub moduł światła KY-018
+4. Moduł przekaźnika z optoizolacją 10A
 5. Moduł pilot/odbiornik SC2272 YK04
 5. Miniaturowa przetwornica STEP-DOWN 230V na 5V typ H6B4
 6. Dioda LED + rezystor 330om
 7. Obudowa Z68U
+8. Złacze 3 przewodowe np. T2 lub KF301-3pin
 
 W projekcie znajdują się kompletne źródła C# (Winforms) oraz szkic dla Arduino.
 
@@ -46,3 +49,6 @@ Lista parametrów urządzenia (wysyłane przez port COM z komputera - szybkość
 
 ![Podgląd parametrów](https://leszek-klich.pl/wp-content/uploads/2019/12/analyzer.png)
 
+Zbadane parametry:
+Zasięg pilota - do 20-30m przy zastosowanej antenie i dostrojeniu odbiornika
+Zasięg czujnika ruchu - 5-8m.
