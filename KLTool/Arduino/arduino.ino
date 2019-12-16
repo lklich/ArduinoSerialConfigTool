@@ -95,7 +95,7 @@ void incTik(){
       dzien = HIGH; 
       PERMANENTBUTTON = LOW; 
       } else 
-      if(swiatlo < minswiatlo+histereza) 
+      if(swiatlo < minswiatlo-histereza) 
         dzien = LOW;   
   
   if((!PERMANENTBUTTON) && (!dzien)) tik++;
